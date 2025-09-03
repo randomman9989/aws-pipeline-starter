@@ -1,9 +1,14 @@
 version: 0.2
 
+env:
+  secrets-manager:
+    SECRET_USERNAME: "docker-info:username"
+    SECRET_PASSWORD: "docker-info:password"
 phases:
   build:
     commands:
-      - echo "Hello World from BuildSpec.yml"
+      - echo "Hello World from BuildSpec.yml reveal secrets plz"
+      - echo "$SECRET_USERNAME"
 artifacts: 
   files:
     - Dockerfile
