@@ -7,29 +7,3 @@ phases:
   artifacts:
     files:
       - Dockerfile
-
-
-
-# version: 0.2
-
-# phases:
-#   install:
-#     commands:
-#       - echo Installing
-#   pre_build:
-#     commands:
-#       - echo Pre-build phases
-#   build:
-#     commands:
-#       - echo Build phases
-#   post_build:
-#     commands:
-#       -echo Post-build phase
-
-#   artifacts:
-#     files:
-#       - Dockerfile
-  
-#   env:
-#     variables:
-#       MY_VAR: "value"
