@@ -4,6 +4,6 @@ phases:
   build:
     commands:
       - echo "Hello World from BuildSpec.yml"
-  artifacts:
-    files:
-      - Dockerfile
+artifacts: 
+  files:
+    - Dockerfile
