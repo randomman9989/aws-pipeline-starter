@@ -14,7 +14,7 @@ phases:
       - echo "Building docker image..."
       - docker build -t nicholaseldergill/pottery-db:latest .
   post_build:
-    -commands:
+    commands:
       - echo "Pushing docker image"
       - docker push nicholaseldergill/pottery-db:latest
 artifacts: 
